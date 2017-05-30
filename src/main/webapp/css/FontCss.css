@@ -1,0 +1,92 @@
+input[type=text], input[type=password] {
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+a:LINK {
+	color: red;
+}
+
+a:HOVER {
+	color: blue;
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+}
+
+button:HOVER {
+	opacity: 0.8;
+}
+
+.container {
+	padding: 16px;
+}
+
+.main {
+	border: 3px solid #f1f1f1;
+}
+
+/* Bootstrap CSS */
+.loginBody {
+	background: url('../images/login.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.SignUpBody {
+	background: url('../images/signUp.jpeg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.updateBookBody {
+	background: url('../images/updateBook.jpeg') no-repeat center center
+		fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.editInfoBody {
+	background: url('../images/editInfo.jpeg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.userHomeBody {
+	background: url('../images/home.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.panel-default {
+	opacity: 0.9;
+	margin-top: 30px;
+}
+
+.form-group.last {
+	margin-bottom: 0px;
+}
